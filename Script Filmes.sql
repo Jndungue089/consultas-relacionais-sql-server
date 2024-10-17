@@ -325,3 +325,9 @@ REFERENCES [dbo].[Generos] ([Id])
 GO
 ALTER TABLE [dbo].[FilmesGenero] CHECK CONSTRAINT [FK__FilmesGen__IdGen__2E1BDC42]
 GO
+SELECT * FROM Atores
+SELECT * FROM ElencoFilme
+SELECT * FROM Filmes
+SELECT * FROM Filmes
+SELECT * FROM Generos
+SELECT Nome, Ano FROM Filmes
